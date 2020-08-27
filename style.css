@@ -1,0 +1,12 @@
+h1, p {
+  font-family: Lato;
+}
+
+html,
+body,
+#root {
+  width: 100%W;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
