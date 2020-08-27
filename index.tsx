@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
 import './style.css';
-import SceneThree from './SceneThree';
+import Area from "./components/3d/Area";
 
 interface AppProps { }
 interface AppState {
@@ -19,7 +18,7 @@ class App extends Component<AppProps, AppState> {
 
   render() {
     return (
-      <SceneThree />
+      <Area />
     );
   }
 }
